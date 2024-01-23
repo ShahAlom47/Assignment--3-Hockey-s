@@ -10,7 +10,7 @@
 .max-width {
     max-width: 1440px;
     margin: auto;
-    border: solid red 3px;
+   
 }
 
 .sec-width {
@@ -84,13 +84,4 @@
 
 }
 
-/* progress section  */
-
-    
-   
-
-
-.border-s{
-    border: solid rgba(222, 195, 88, 0.756) 4px;
-}
 
