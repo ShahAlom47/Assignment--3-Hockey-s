@@ -7,6 +7,11 @@
 
 }
 
+
+.border-s{
+
+    border: solid red 3px;
+}
 .max-width {
     max-width: 1440px;
     margin: auto;
@@ -17,8 +22,11 @@
 
     width: 80%;
     
-    margin: 100px  auto;
+    margin: 100px   auto;
+    border: solid red 3px;
 }
+
+
 
 .sec-heading {
 
