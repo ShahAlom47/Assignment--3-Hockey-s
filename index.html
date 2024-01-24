@@ -25,8 +25,8 @@
 
     <header class=" w-full  md:w-10/12 md:m-auto  lg:m-auto lg:size-10/12">
 
-        <nav class="my-12">
-            <div class="navbar  px-0.5  ">
+        <nav class="my-12 ">
+            <div class="navbar  px-0.5   m-auto ">
                 <div class="navbar-start flex lg:flex-row">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -66,32 +66,42 @@
                 </div>
                 <div class="navbar-end mx-0.5 flex gap-1 justify-end">
                     <a class="hidden lg:flex justify-end m-3 " href="">
+                       
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_5_6)">
-                                <path
-                                    d="M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
-                                    stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path d="M21 21L15 15" stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_5_6">
-                                    <rect width="24" height="24" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
+                        <div class="dropdown dropdown-right dropdown-end">
+                            <div tabindex="0" role="button" class="btn m-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <g clip-path="url(#clip0_5_6)">
+                                    <path
+                                        d="M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
+                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M21 21L15 15" stroke="#89898B" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_5_6">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                                 </svg>
+                            </div>
+                            <ul tabindex="0" class="dropdown-content z-[1] menu  shadow bg-base-100 rounded-box w-52">
+                           <a href=""> <input class="" type="text" name="" id="" placeholder="Search..."> 
+                            </ul>
+                          </div>
 
                     </a>
-                    <a class="btn primary-btn mx-0 ">Get Ticket</a>
+
+                    <a class="btn primary-btn mr-2  text-lg lg:text-xl ">Get Ticket</a>
 
                 </div>
             </div>
 
 
         </nav>
-        <div class="banner  w-full ">
+        <div class="banner lg:w-full w-11/12 m-auto ">
 
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full ">
@@ -101,7 +111,7 @@
                         <a href="#slide2" class="btn btn-circle  bg-black text-white border-none ">❯</a>
                     </div>
                     <div
-                        class="badge-1 bg-[#0000006c] p-3   hidden md:flex lg:flex flex-col items-start rounded-xl lg:w-[500px] lg:absolute bottom-[3%] right-[2%]  ">
+                        class="badge-1 bg-[#000000] p-4   hidden md:flex lg:flex flex-col items-start rounded-xl lg:w-[500px] lg:absolute bottom-[3%] right-[2%]  ">
 
                         <h1 class=" text-lg lg:text-2xl font-extrabold text-white">Meet all the heroes from the
                             field</h1>
@@ -153,21 +163,20 @@
             </div>
 
 
-            <div
-            class="badge-1 bg-black p-6  w-11/12 m-auto flex md:hidden lg:hidden flex-col items-start rounded-xl ">
+            <div class="badge-1 bg-black p-6  w-full m-auto flex md:hidden lg:hidden flex-col items-start rounded-xl ">
 
-            <h1 class=" text-lg lg:text-2xl font-extrabold text-white">Meet all the heroes from the
-                field</h1>
-            <p class=" text-sm font-light text-white">Explore our gallery and meet the extraordinary
-                heroes from the field. Witness their inspiring journeys and achievements in this exclusive
-                showcase.</p>
+                <h1 class=" text-lg lg:text-2xl font-extrabold text-white">Meet all the heroes from the
+                    field</h1>
+                <p class=" text-sm font-light text-white">Explore our gallery and meet the extraordinary
+                    heroes from the field. Witness their inspiring journeys and achievements in this exclusive
+                    showcase.</p>
+
+            </div>
+
+
 
         </div>
 
-
-
-        </div>
-      
     </header>
     <main>
 
@@ -234,11 +243,9 @@
 
             <div class="section-heading-box border-y-2 border-dotted border-gray-500  py-8 mb-10">
 
-                <h1 class=" sm-sec-heading lg:sec-heading "> Professional Hockeys Club</h1>
-                <p class=" sm-para-style lg:para-style "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                    earum delectus
-                    nihil
-                    voluptas ratione accusantium odio impedit exercitationem id aspernatur? </p>
+                <h1 class=" sm-sec-heading lg:sec-heading "> Program Sections</h1>
+                <p class=" sm-para-style lg:para-style "> Join our elite Professional Hockey Club for thrilling matches,
+                    camaraderie, and a commitment to excellence in the exhilarating world of hockey. </p>
 
             </div>
 
@@ -250,10 +257,8 @@
                     <figure><img src="Images/2.png" alt="Shoes" /></figure>
                     <div class="card-body  flex flex-col  m-10 mt-auto p-0">
                         <h2 class="card-title text-start  font-extrabold text-3xl text-white">Junior Program</h2>
-                        <p class="font-medium mt-3 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis.
-                            Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed etn.</p>
+                        <p class="font-medium mt-3 text-white">Enroll in our Junior Hockey Program! Unlock skill
+                            development, teamwork, and fun on the ice. Register now for an exciting journey</p>
                         <div class="mr-auto flex justify-center">
                             <button class="btn primary-btn border-none m-0 mt-7  ">Register Now!</button>
 
@@ -267,10 +272,9 @@
                     <figure><img src="Images/3.png" alt="Shoes" /></figure>
                     <div class="card-body  flex flex-col  m-10 mt-auto p-0">
                         <h2 class="card-title text-start  font-extrabold text-3xl text-white">Teenager Program</h2>
-                        <p class="font-medium mt-3 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis.
-                            Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed etn.</p>
+                        <p class="font-medium mt-3 text-white">Teen Hockey Program: Elevate skills, build friendships,
+                            and experience the excitement of hockey. Register today for a dynamic and rewarding journey!
+                        </p>
                         <div class="mr-auto flex justify-center">
                             <button class="btn primary-btn border-none m-0 mt-7  ">Register Now!</button>
 
@@ -283,10 +287,9 @@
                     <figure><img src="Images/4.png" alt="Shoes" /></figure>
                     <div class="card-body  flex flex-col  m-10 mt-auto p-0">
                         <h2 class="card-title text-start  font-extrabold text-3xl text-white">Professional Program</h2>
-                        <p class="font-medium mt-3 text-white lg:w-7/12">Dolor sit amet consectetur. Ut urna diam quis
-                            sagittis. Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed etn.</p>
+                        <p class="font-medium mt-3 text-white lg:w-7/12">Professional Hockey Program: Sharpen your
+                            skills, compete at the highest level, and pursue excellence. Enroll now for a transformative
+                            journey in professional hockey.</p>
                         <div class="mr-auto flex justify-center">
                             <button class="btn primary-btn border-none m-0 mt-7  ">Register Now!</button>
 
@@ -311,8 +314,8 @@
             <div class="section-heading-box border-y-2 border-dotted border-gray-500  py-8 mb-10">
 
                 <h1 class=" sm-sec-heading lg:sec-heading "> Our New Products</h1>
-                <p class=" sm-para-style lg:para-style "> Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                    turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class=" sm-para-style lg:para-style ">Explore our latest products, combining innovation and quality
+                    for an enhanced experience. Discover excellence with our new releases today! </p>
 
             </div>
 
@@ -323,7 +326,7 @@
                 <div
                     class="card  bg-base-100  p-6 shadow-xl  flex gap-5 flex-col lg:flex-row     lg:col-span-3 lg:col-start-1  lg:row-span-1 lg:row-start-1 ">
                     <figure class=" lg:w-4/12">
-                        <img src="Images/8.png" alt="Shoes" class="rounded-xl" />
+                        <img src="Images/stick.jpg" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-start p-1 lg:w-8/12">
                         <div class="card-nav flex gap-4">
@@ -386,7 +389,7 @@
                         </div>
                         <h2 class="card-title font-extrabold">Hockey Stick</h2>
                         <p>Unleash precision with our hockey stick. Elite performance, crafted for champions. Yours for
-                            just $X. </p>
+                            just $22.00. </p>
                         <div class="card-footer flex  flex-col  lg:flex-row  gap-5">
                             <p class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
                             <p class="text-base font-medium text-gray-500 flex gap-2">
@@ -1067,8 +1070,9 @@
             <div class="section-heading-box border-y-2 border-dotted border-gray-300  py-8 mb-10">
 
                 <h1 class=" sm-sec-heading lg:sec-heading "> Get In Touch</h1>
-                <p class=" sm-para-style lg:para-style "> Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                    turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class=" sm-para-style lg:para-style "> Connect with us anytime for seamless communication.
+                    We're here to engage and assist you whenever needed.
+                    Get in touch now! </p>
 
             </div>
 
@@ -1198,12 +1202,12 @@
 
 
 
-        <footer class="max-width bg-black  ">
+        <footer class="max-width bg-black py-1 lg:py-14   ">
             <div
                 class="footer-container sec-width space-y-8  grid  lg:gap-8  grid-rows-3 grid-cols-12   lg:grid-cols-12 lg:grid-rows-1">
 
                 <div
-                    class="get-touch text-center lg:text-left  col-span-12 col-start-1 row-span-1 row-start-1  lg:col-span-3 lg:col-start-1 lg:row-span-1 lg:row-start-1">
+                    class="get-touch text-center lg:text-left  col-span-12 col-start-1 row-span-1 row-start-1 mt-8 lg:col-span-3 lg:col-start-1 lg:row-span-1 lg:row-start-1">
 
                     <h1 class="font-extrabold text-2xl text-white mb-8 ">Get In Touch</h1>
                     <p class="font-medium text-gray-500 mb-8">Connect with us anytime for seamless communication. <br>
